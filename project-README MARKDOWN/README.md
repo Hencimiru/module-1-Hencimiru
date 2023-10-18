@@ -4,7 +4,7 @@
 
 Hi, I'm Henci Miru, Revou FSSE Student.
 
-![Henci Photo](/assets/phone-background.jpeg)
+![Henci Photo](assets/phone-background.jpeg)
 
 I was born on 12 October, 1998, and grew up in Lelang, Maluku. I'm a Fresh Graduate. I got my bachelor's Degree in Law Department at Universitas Dr. Soetomo, Surabaya . Now i'am currently studying at Revou FSSE Bootcamp. I have a career plan to be a Full Stack Developer in the future. All right, that's from me. Nice to meet you all. Thank you.
 
