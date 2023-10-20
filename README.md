@@ -82,3 +82,5 @@ event.currentTarget.classList.add("active-link");
 
 * Using simple HTML, CSS, and JS.
 * Have a form includes text area, text, and subtmit button.
+
+https://chimerical-blini-888c72.netlify.app/#contact
