@@ -94,8 +94,8 @@ img {
 }
 /* ---------------------contact---------- */
 .contact-form {
-  width: 85%;
-  max-width: 500px;
+  width: 50%;
+  max-width: 250px;
   position: relative;
   background-image: url(images/emy-Rx3QSrG1coc-unsplash.jpg);
   background-size: cover;
@@ -108,17 +108,10 @@ img {
   box-shadow: 0 0 20px #914a4ab3;
   font-family: "Montserrat", sans-serif;
 }
-<<<<<<< HEAD
 section h1{
     color: #725c59;
     margin-top: 0;
     font-weight: 200;
-=======
-.contact-form h1 {
-  color: #725c59;
-  margin-top: 0;
-  font-weight: 200;
->>>>>>> 8204587a6a087565295c69777cac76faec612734
 }
 .txtb {
   border: 1px solid rgb(88, 71, 71);
@@ -152,10 +145,6 @@ section h1{
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 8px;
-  width: 100%;
+width: 100%;
 }
-<<<<<<< HEAD
 /* -----thankuuuu----- */
-=======
-/* -----thankuuuu----- */
->>>>>>> 8204587a6a087565295c69777cac76faec612734
