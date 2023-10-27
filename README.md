@@ -1,5 +1,3 @@
-
-
 # Henci Miru Profile
 
 ## My Bio
@@ -75,12 +73,9 @@ event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
 ```
 
-
-
-
 # My website - chocolates lovers
 
-* Using simple HTML, CSS, and JS.
-* Have a form includes text area, text, and subtmit button.
+- Using simple HTML, CSS, and JS.
+- Have a form includes text area, text, and subtmit button.
 
-https://chimerical-blini-888c72.netlify.app/#contact
+https://chimerical-blini-888c72.netlify.app/
