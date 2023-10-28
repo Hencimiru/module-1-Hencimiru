@@ -1,14 +1,11 @@
-/* .mobile {
-    display: none;
-}
-.desktop {
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .mobile {
     display: block;
-} */
-@media only screen and (max-width: 600px) {
-    .mobile {
-    display: block;
-    }
-    .desktop {
+  }
+  .desktop {
     display: none;
-    }
+  }
 }

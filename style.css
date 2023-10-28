@@ -27,7 +27,11 @@ nav ul {
   margin-left: auto;
   margin-right: 20px;
 }
-
+nav ul a:hover {
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+}
 nav ul li {
   display: inline-block;
 }
@@ -76,11 +80,15 @@ img {
 /* ------------------about------------- */
 .container {
   font-weight: 500;
-  display: flex;
+  content: "";
+  clear: both;
+  display: block;
 }
 .about-col-1 img {
   width: 68%;
   border-radius: 10px;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 .sub-title {
   color: rgb(95, 60, 60);
@@ -92,15 +100,24 @@ img {
   color: rgb(95, 60, 60);
   text-align: center;
 }
+
+.contact-parent {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 600px;
+}
 /* ---------------------contact---------- */
 .contact-form {
   width: 50%;
+  height: 500px;
   max-width: 250px;
-  position: relative;
+  position: absolute;
   background-image: url(images/emy-Rx3QSrG1coc-unsplash.jpg);
   background-size: cover;
   top: 50%;
   left: 50%;
+  bottom: 0;
+
   transform: translate(-50%, -50%);
   padding: 15px 40px;
   border-radius: 10px;
@@ -108,10 +125,10 @@ img {
   box-shadow: 0 0 20px #914a4ab3;
   font-family: "Montserrat", sans-serif;
 }
-section h1{
-    color: #725c59;
-    margin-top: 0;
-    font-weight: 200;
+section h1 {
+  color: #725c59;
+  margin-top: 0;
+  font-weight: 200;
 }
 .txtb {
   border: 1px solid rgb(88, 71, 71);
@@ -145,6 +162,33 @@ section h1{
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 8px;
-width: 100%;
+  width: 100%;
 }
+.about-col-2 {
+  width: 25%;
+}
+.about-col-1 {
+  width: 50%;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.container .about-col-1 p {
+  text-align: center;
+  margin-top: -0.1em;
+  font-size: 15px;
+}
+.flex-container {
+  justify-items: center;
+}
+
 /* -----thankuuuu----- */
