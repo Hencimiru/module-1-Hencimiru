@@ -2,6 +2,10 @@
   [class*="col-"] {
     width: 100%;
   }
+  .contatc-form{
+    width: 20%;
+    height: 10%;
+  }
   .mobile {
     display: block;
   }

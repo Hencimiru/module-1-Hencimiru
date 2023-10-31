@@ -69,8 +69,10 @@ header {
   color: rgb(95, 60, 60);
   text-align: center;
 }
-#chocolates-photos {
+.chocolates-photos {
+  margin-right: 60px;
   display: grid;
+  gap: 30px;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
 }
@@ -79,16 +81,18 @@ img {
 }
 /* ------------------about------------- */
 .container {
+  /* overflow: hidden; */
   font-weight: 500;
   content: "";
   clear: both;
-  display: block;
+  /* display: block; */
 }
 .about-col-1 img {
-  width: 68%;
-  border-radius: 10px;
-  padding-left: 5em;
-  padding-right: 5em;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 70%;
 }
 .sub-title {
   color: rgb(95, 60, 60);
@@ -108,16 +112,16 @@ img {
 }
 /* ---------------------contact---------- */
 .contact-form {
-  width: 50%;
-  height: 500px;
-  max-width: 250px;
+  width: 80%;
+  height: 75%;
+  /* height: 500px; */
+  /* max-width: 250%; */
   position: absolute;
   background-image: url(images/emy-Rx3QSrG1coc-unsplash.jpg);
   background-size: cover;
   top: 50%;
   left: 50%;
   bottom: 0;
-
   transform: translate(-50%, -50%);
   padding: 15px 40px;
   border-radius: 10px;
@@ -189,6 +193,10 @@ section h1 {
 }
 .flex-container {
   justify-items: center;
+}
+main{
+  padding: 5px;
+  overflow: hidden;
 }
 
 /* -----thankuuuu----- */
